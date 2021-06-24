@@ -1,0 +1,57 @@
+body {
+margin: 0;
+font-family: "Lora", sans-serif;
+
+min-height: 100vh;
+}
+
+.title {
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-family: "Lora", sans-serif;
+}
+.link { 
+    color: darkcyan;
+    transition: color .2s;
+}
+.link:hover {
+    color: lightpink;
+}
+.header {
+    padding: 15px;
+    border-bottom: 3px solid darkcyan;
+    text-align: center;
+}
+.header-link{
+    margin: 0 15px;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+.avatar {
+    background-color: rgb(204, 237, 241);
+    padding: 20px;
+text-align: center;
+}
+.subtitle {
+    border-left: 10px solid rgba(140, 236, 61, 0.555);
+    padding-left: 10px;
+    color: rgb(33, 95, 189);
+    font-family: "Lora", sans-serif;
+    
+    
+}
+
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
